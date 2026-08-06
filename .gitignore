@@ -4,13 +4,5 @@ node_modules
 
 
 
-.env
-.env.local
-.env.development
-.env.production
-.env.test
-.vercel
-branch_structure.json
-temp_auto_push.bat
-temp_interactive_push.bat
-.gitignore
+
+config.bat
