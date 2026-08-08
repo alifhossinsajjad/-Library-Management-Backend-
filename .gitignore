@@ -2,7 +2,8 @@ node_modules
 
 
 
-
-
-
-config.bat
+.env
+.env.test
+.env.local
+.env.example
+.env.development
