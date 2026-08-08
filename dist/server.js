@@ -15,9 +15,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const mongoose_1 = __importDefault(require("mongoose"));
 const dotenv_1 = __importDefault(require("dotenv"));
 const app_1 = __importDefault(require("./app"));
-const dns_1 = __importDefault(require("dns"));
 dotenv_1.default.config();
-dns_1.default.setServers(["8.8.8.8", "8.8.4.4"]);
 let server;
 const PORT = process.env.PORT;
 function main() {
